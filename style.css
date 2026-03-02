@@ -17,6 +17,10 @@ input{
     padding: 20xp;
     width: 200xp;
 }
+main{
+    max-height: 700xp;
+    padding:30xp;
+}
 
 button{
     padding: 15xp;
@@ -53,7 +57,12 @@ button{
     width:80xp;
 
 }
+.boarder-grid img{
+    height:100%;
+    border:none;
+    border-radius: 10xp;
+}
 .error{
-    colour:red;
+    background-color:red;
     margin: 30px;
 }
